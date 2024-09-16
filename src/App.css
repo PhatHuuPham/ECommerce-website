@@ -1,0 +1,24 @@
+a {
+    text-decoration: none;
+    color: #5e565a;
+}
+
+li {
+    list-style-type: none;
+}
+
+.navbar {
+    background-color: #efecca;
+}
+
+.navbar-items {
+    display: flex;
+    justify-content: center;
+    /* margin: 30px 10px; */
+}
+
+.navbar-item {
+    padding: 20px;
+    margin: 0 10px;
+    cursor: pointer;
+}
