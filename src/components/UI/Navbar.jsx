@@ -1,26 +1,28 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 
 export const Navbar = () => {
   return (
     <div className='navbar'>
         <ul className="navbar-items">
             <li className="navbar-item">
-                <a href="/">Trang chủ</a>
+                <Link to="/">Trang chủ</Link>
             </li>
             <li className="navbar-item">
-                <a href="/sanpham">Sản phẩm</a>
+                <Link to="/sanpham">Sản phẩm</Link>
             </li>
             <li className="navbar-item">
-                <a href="/danhmuc">Danh mục</a>
+                <Link to="/danhmuc">Danh mục</Link>
             </li>
             <li className="navbar-item">
-                <a href="/lienhe">Liên hệ</a>
+                <Link to="/lienhe">Liên hệ</Link>
             </li>
             <li className="navbar-item">
-                <a href="/giohang">Giỏ hàng</a>
+                <Link to="/giohang">Giỏ hàng</Link>
             </li>
             <li className="navbar-item">
-                <a href="/user">Người dùng</a>
+                <Link to="/user">Người dùng</Link>
             </li>
         </ul>
     </div>
