@@ -3,14 +3,15 @@ import './App.css'
 import { Header } from './screens/Header'
 import { Routes, Route } from 'react-router-dom'
 import { Product } from './screens/Product'
+import { Category } from './screens/Category'
 
 const App = () => {
   return (
     <>
     <Header/>
     <Routes>
-            {/* <Route path='/' element={}></Route> */}
-            <Route path='/sanpham' element={<Product/>} ></Route>
+            <Route path='/danhmuc' element={<Category/>}/>
+            <Route path='/sanpham' element={<Product/>} />
         </Routes>
     </>
   )
